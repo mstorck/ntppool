@@ -35,67 +35,67 @@ msgstr "All Pool Serveren"
 
 # navigation
 msgid "Translations"
-msgstr "Translations"
+msgstr "Iwwersetzungen"
 
 # index.html
 msgid  "Introduction"
-msgstr "Introduction"
+msgstr "Aféierung"
 
 msgid  "Active Servers"
-msgstr "Active Servers"
+msgstr "Aktiv Serveren"
 
 msgid  "Links"
-msgstr "Links"
+msgstr "Linken"
 
 msgid  "Terms of service"
-msgstr "Terms of service"
+msgstr "Benotzungsbedingunge"
 
 msgid  "Subscribe in a reader"
-msgstr "Subscribe in a reader"
+msgstr "Abonnéiert Iech an engem Lieser"
 
 msgid  "Older news"
-msgstr "Older news"
+msgstr "Eeler Neiegkeeten"
 
 # mailinglists.html
 msgid  "archive"
-msgstr "archive"
+msgstr "Archiv"
 
 msgid  "NTP Pool Forum"
 msgstr "NTP Pool Forum"
 
 msgid  "News site"
-msgstr "News site"
+msgstr "Neiegkeetesäit"
 
 msgid  "Discussion list"
-msgstr "Discussion list"
+msgstr "Diskussiounslëscht"
 
 msgid  "Development"
-msgstr "Development"
+msgstr "Entwécklung"
 
 msgid  "forum_description"
-msgstr "Questions (and answers) about the NTP Pool, suggestions for improvements and topics related to time keeping and operating NTP servers."
+msgstr "Froen (an Äntwerten) iwwer den NTP Pool, Verbesserungsvirschléi an Themen am Zesummenhang mat der Zäiterfassung an dem Betrib vun NTP-Serveren."
 
 msgid  "news_description"
-msgstr "Announcements and news are posted on the news site or the forum."
+msgstr "Ukënnegungen an Neiegkeeten ginn op der Newssäit oder am Forum publizéiert."
 
 msgid  "development_list_description"
-msgstr "More technical (and ideally pragmatic) discussions about development of the <a href=\"%1\">ntp pool code</a> and <a href=\"%2\">GeoDNS</a> happens in the  <a href=\"%3\">development forum</a>."
+msgstr "Méi technesch (an idealerweis pragmatesch) Diskussiounen iwwer d'Entwécklung vum <a href=\"%1\">NTP Pool Code</a> an <a href=\"%2\">GeoDNS</a> fannen am  <a href=\"%3\">Entwécklungsforum</a> statt."
 
 # tpl/server.html
 msgid  "Back to the front page"
-msgstr "Back to the front page"
+msgstr "Zréck op d'éischt Säit"
 
 msgid  "Find"
-msgstr "Find"
+msgstr "Fannen"
 
 msgid  "Stats for %1"
-msgstr "Statistics for %1"
+msgstr "Statistike fir %1"
 
 msgid  "Not active in the pool, monitoring only"
-msgstr "Not active in the pool, monitoring only"
+msgstr "Net aktiv am Pool, nëmmen Iwwerwaachung"
 
 msgid  "Zones:"
-msgstr "Zones:"
+msgstr "Zonen:"
 
 msgid  "This server is <span class=\"deletion\">scheduled for deletion</span> on %1."
 msgstr "This server is <span class=\"deletion\">scheduled for deletion</span> on %1."
