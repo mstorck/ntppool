@@ -1,37 +1,37 @@
 msgid ""
 msgstr ""
-"Last-Translator: Ask Bjørn Hansen <ask@develooper.com>\n"
+"Last-Translator: Marc C Storck <marc@storck.lu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "go up"
-msgstr "go up"
+msgstr "eropgoen"
 
 # zone names
 msgid "Africa"
-msgstr "Africa"
+msgstr "Afrika"
 
 msgid "Asia"
-msgstr "Asia"
+msgstr "Asien"
 
 msgid "North America"
-msgstr "North America"
+msgstr "Nordamerika"
 
 msgid "South America"
-msgstr "South America"
+msgstr "Südamerika"
 
 msgid "Europe"
-msgstr "Europe"
+msgstr "Europa"
 
 msgid "Oceania"
-msgstr "Oceania"
+msgstr "Ozeanien"
 
 msgid "Global"
 msgstr "Global"
 
 msgid "All Pool Servers"
-msgstr "All Pool Servers"
+msgstr "All Pool Serveren"
 
 # navigation
 msgid "Translations"
