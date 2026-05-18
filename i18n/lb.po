@@ -98,29 +98,29 @@ msgid  "Zones:"
 msgstr "Zonen:"
 
 msgid  "This server is <span class=\"deletion\">scheduled for deletion</span> on %1."
-msgstr "This server is <span class=\"deletion\">scheduled for deletion</span> on %1."
+msgstr "Dëse Server soll de %1 <span class=\"deletion\">geläscht</span> gin."
 
 msgid  "This server was <span class=\"deletion\">scheduled for deletion</span> on %1."
-msgstr "This server was <span class=\"deletion\">scheduled for deletion</span> on %1."
+msgstr "Dëse Server sollt de %1 <span class=\"deletion\">geläscht</span> ginn."
 
 msgid  "Current score: %1 (only servers with a score higher than %2 are used in the pool)"
-msgstr "Current score: %1 (only servers with a score higher than %2 are used in the pool)"
+msgstr "Aktuellen Score: %1 (nëmme Server mat engem Score méi héich wéi %2 ginn am Pool benotzt)"
 
 msgid  "What do the graphs mean?"
-msgstr "What do the graphs mean?"
+msgstr "Wat bedeiten d'Grafiken?"
 
 msgid  "CSV log"
-msgstr "CSV log"
+msgstr "CSV Log"
 
 # tpl/navigation_sidebar.html
 msgid  "News"
-msgstr "News"
+msgstr "Neiegkeeten"
 
 msgid  "How do I <i>use</i> pool.ntp.org?"
-msgstr "How do I <i>use</i> pool.ntp.org?"
+msgstr "Wéi <i>benotzen</i> ech pool.ntp.org?"
 
 msgid  "How do I <i>join</i> pool.ntp.org?"
-msgstr "How do I <i>join</i> pool.ntp.org?"
+msgstr "Wéi kann ech mech bei pool.ntp.org <i>umellen</i>?"
 
 msgid  "Information for vendors"
 msgstr "Information for vendors"
@@ -129,7 +129,7 @@ msgid  "The mailing lists"
 msgstr "Community"
 
 msgid  "Additional links"
-msgstr "Additional links"
+msgstr "Zousätzlech Linken"
 
 msgid  "Can you translate?"
-msgstr "Can you translate?"
+msgstr "Kënnt Dir iwwersetzen?"
