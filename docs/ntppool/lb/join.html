@@ -1,82 +1,82 @@
-[% page.title = 'Join the NTP Pool!'  %]
+[% page.title = 'Maacht mat beim NTP Pool!'  %]
 
 <div class="block">
-	<h3><a name="join">How do I join pool.ntp.org?</a></h3>
+	<h3><a name="join">Wéi kann ech dem pool.ntp.org bäitrieden?</a></h3>
 	<p>
-	First: Thanks for your interest.  Usage of the pool has grown
-	enormously, and the only way we can keep it easy for everyone to run a
-	pool server is to also grow the number of servers participating.
+	Als éischt: Merci fir Äert Interesse.  D'Benotzung vum Pool ass enorm
+	gewuess, an deen eenzege Wee, wéi mir et jidderengem einfach maachen,
+	e Pool-Server ze bedreiwen, ass och d'Zuel vun de matmaachende Serveren
+	ze vergréisseren.
 	</p>
 
 	<p>
-	Your computer <b>must have a static IP address</b> and a permanent
-	Internet connection.  It's very important that your IP address doesn't
-	change or only does so extremely infrequently (say once a year or
-	less).  The required bandwidth is relatively low.  Each client will
-	only send a few UDP packets every few to every 20 minutes.
+	Äre Computer muss eng statësch IP-Adress hunn an eng permanent
+	Internetverbindung. Et ass ganz wichteg, datt Är IP-Adress sech net
+	ännert oder dat nëmmen extrem selten geschitt (z. B. eemol am Joer oder
+	manner). Déi erfuerderlech Bandbreedung ass relativ niddereg. All Client
+	schéckt nëmmen e puer UDP-Pakete all puer 20 Minutten.
 	</p>
 
 	<p>
-	Currently most servers get about 5-15 NTP packets per second
-	with spikes of 60-120 packets per second a few times a day.
-	This is roughly equivalent to 10-15Kbit/sec with
-	spikes of 50-120Kbit/sec.  The project steadily acquires more
-	timeservers, so the load should not increase dramatically for
-	each server.  In plain terms, you probably need at least
-	384-512Kbit bandwidth (in and out-going).
+	Momentan kréien déi meescht Server ongeféier 5–15 NTP-Pakete pro Sekonn
+	mat Spëtzen vun 60–120 Pakete pro Sekonn e puer Mol den Dag.
+	Dat entsprécht ongeféier 10–15 Kbit/s mat Spëtzen vun 50–120 Kbit/s.
+	De Projet sammelt stänneg méi Zäitserveren, sou datt d'Belaaschtung fir
+	all eenzelen Server net dramatesch eropgeet.
+	Einfach gesot, du brauchs warscheinlech op d'mannst 384–512 Kbit Bandbreed
+	(eran- an erausgoend).
 	</p>
 
 	<p>
-	The servers joining should not have <tt>pool.ntp.org</tt> as their upstream
-	server(s), but should configure some <a href="https://support.ntp.org/Servers/StratumTwoTimeServers/">good servers</a> manually. Those servers
-	<b>may</b> be chosen from the pool. The point is that they are chosen
-	statically instead of being assigned randomly from the pool at each server
-	restart.  This will help providing an acceptable quality of service.
+	D'Serveren, déi sech uschléissen, sollten net <tt>pool.ntp.org</tt> als hir
+	Upstream- Serveren hunn, mä sollten e puer <a href="https://support.ntp.org/Servers/StratumTwoTimeServers/">gutt Serveren</a>
+	manuell konfiguréieren. Dës Serveren <b>kënnen</b> aus dem Pool ausgewielt ginn.
+	De Punkt ass, datt se statesch ausgewielt ginn, anstatt bei all Server-Neistart
+	zoufälleg aus dem Pool zougewise ze ginn. Dëst hëlleft eng akzeptabel
+	Servicequalitéit ze bidden.
 
-	Note that it is not required that your server is a stratum 1 or 2
-	server - as this project is about load distribution mostly, there is
-	no reason why a stratum 3 or even stratum 4 server shouldn't join.
+	Äre Server muss net Stratum 1 oder 2 sinn, well d'Haaptzil vum NTP-Pool ass,
+	d'Laascht iwwer vill Serveren ze verdeelen. Et gëtt kee Grond firwat e Stratum
+	3 oder 4 Server net dem Pool bäitrieden soll.
 	</p>
 
 	<p>
-	We have a page with <a href="/join/configuration.html">configuration recommendations for servers joining the pool</a>.
+	Mir hunn eng Säit mat <a href="/join/configuration.html">Konfiguratiounsempfehlungen fir Serveren, déi dem Pool bäitrieden.
 	</p>
-	<p>Finally, I must emphasize that joining the pool is a <b>long term
-	commitment</b>.  We are happy to take you out of the pool again if your
-	circumstances change, but because of how the NTP clients operate <b>it
-	will take weeks, months or even YEARS before the traffic completely
-    goes away</b>.
+	<p>Schlussendlech muss ech betounen, datt d'Memberschaft an de Pool e
+	<b>laangfristegt</b> Engagement ass. Mir freeën eis, Iech erëm aus dem Pool
+	ze huelen, wann Är Ëmstänn sech änneren, awer wéinst der Aart a Weis,
+	wéi d'NTP-Clienten funktionéieren, <b>wäert et Wochen, Méint oder souguer
+	JOER daueren, bis den Traffic komplett verschwënnt.</b>
 	</p>
 
 	<p>
-	If this is all ok, login to the
-	<a href="/manage">server management</a> page and request your server to be added.
-	If you have any trouble with the system, email me at <a
+	Wann dat alles an der Rei ass, mellt Iech op der <a href="/manage">Serververwaltungssäit</a>
+	un a frot no, datt Äre Server derbäigesat gëtt.
+	Wann Dir Problemer mam System hutt, schéckt mir eng E-Mail op <a
 	href="mailto:ask@develooper.com">ask@develooper.com</a>.
 	</p>
 
 	<p>
-	Please also join the <a href="[% language_url("/mailinglists.html") %]">community forum</a>
-	</p>
+	Maacht och mat beim <a href="[% language_url("/mailinglists.html") %]">Gemeinschaftsforum</a>	</p>
 
 	<p>
-	It would be nice (but it's not necessary) if you could redirect web requests
-	on port 80 of your time server to the official web page of the project at
-	<tt>https://www.ntppool.org/</tt>. If you run Apache, you could do this with:
-	</p>
+	Et wier flott (awer et ass net néideg), wann Dir Webufroen op Port 80
+	vun Ärem Zäitserver op déi offiziell Websäit vum Projet op <tt>https://www.ntppool.org/</tt>
+	ëmleede kënnt. Wann Dir Apache benotzt, kënnt Dir dat wéi follegt maachen:</p> 
 
         [% PROCESS tpl/join/virtual_host_example.html %]
 
 	<p>
-	Again, this is only if you run a webserver anyway. The official project web
-	page will always be given with the 'www' at the beginning - but sometimes
-	people type <tt>pool.ntp.org</tt> and are then surprised to get a random web
-        page.
+	Nach eng Kéier, dëst ass nëmmen wann Dir souwisou e Webserver bedreift. Déi
+	offiziell Projetwebsäit gëtt ëmmer mam 'www' um Ufank uginn - awer heiansdo
+	tippen d'Leit <tt>pool.ntp.org</tt> an a si dann iwwerrascht, eng zoufälleg
+	Websäit ze kréien.
 	</p>
 	<p>
-	Once added to the pool the server is constantly monitored for
-        availability and precision.  You can watch your server's
-        performance using the <a href="scores">web frontend</a> or
-        the <a href="/manage">management page</a>.
+	Soubal e Server an de Pool bäigefüügt ass, gëtt de Server permanent op
+	Disponibilitéit a Präzisioun iwwerwaacht. Dir kënnt d'Performance vun Ärem
+	Server iwwer de <a href="scores">Web-Frontend</a> oder
+	d'<a href="/manage">Management-Säit</a> verfollegen.
 	</p>
 </div>
